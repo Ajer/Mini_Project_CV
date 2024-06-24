@@ -1,0 +1,13 @@
+/* If screen size is more than 700px wide, set the */
+ @media screen and (min-width: 700px) {
+    #cv_name {
+      font-size: 15px;
+    }
+  }
+  
+  /* If screen size is 699px wide, or less, set the font-size of 30px*/ 
+  @media screen and (max-width: 600px) {
+    #cv_name {
+      font-size: 30px;
+    }
+  }
